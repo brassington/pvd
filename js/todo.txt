@@ -1,0 +1,9 @@
+Init variables for player and dragon-
+Prompt for player name-
+Add events to buttons-
+Create attacking function-
+Create Magic function(will just call attack for now)-
+Create dragon attack-
+Handle death and restarts
+Handle actual turns.(Not entirely sure how to approach this part...)-
+Track all actions and display them out-

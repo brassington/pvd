@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Player Vs. Dragon</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="starter container">
+  <h1>Please Input Name</h1>
+  <input type="text" name="enter-name" id="enter-name" maxlength="18">
+  <button id="fight-button">Fight!</button>
+</div>
+<div class="container hide" id="game-container">
+
+  <div id="dragon">
+    <img src="img/dragon.png" alt="http://youtu.be/Wik2uc69WbU">
+    <canvas id="dragon-info"></canvas>
+  </div><!-- END #DRAGON -->
+
+  <div class="hero">
+    <div class="hero-status">
+      <img src="img/hero.png" alt="http://youtu.be/Q86Rn4jETVk">
+      <h1 class="hero-name">Hero</h1>
+      <p class="health">HP: <span class="health">0</span></p>
+      <p class="mana">MP: <span class="mana">0</span></p>
+    </div><!-- END .HERO-STATUS -->
+    <div class="hero-actions">
+      <button name="attack">Physical Attack</button>
+      <button name="magic">Magic Attack</button>
+      <button name="heal">Heal</button>
+    </div><!-- END .HERO-ACTIONS -->
+  </div><!-- END .HERO -->
+  <textarea name="action-log" id="action-log" readonly></textarea>
+  <button id="restart" class="hide">Play Again?</button>
+</div><!-- END .CONTAINER -->
+<footer>
+    <p><a href="http://opengameart.org/content/rpg-enemies-11-dragons">Dragon : Stephen "Redshrike" Challener, MrBeast, Surt, Blarumyrran, Sharm, Zabin</a></p>
+</footer>
+<script src="js/pvd.js"></script>
+</body>
+</html>

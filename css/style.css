@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../img/satinweave.png);
+  font-family: sans-serif; }
+
+.container {
+  width: 600px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 60px;
+  text-align: center; }
+
+input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  font-size: 35px; }
+
+.starter button {
+  margin: 10px auto;
+  width: 100%;
+  font-size: 60px;
+  background: none;
+  border: 1px solid #000; }
+
+#dragon {
+  width: 100%;
+  height: auto;
+  border: 1px #cccccc solid;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  #dragon img {
+    margin: 0 auto;
+    vertical-align: middle;
+    display: block;
+    padding: 10px; }
+  #dragon canvas {
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    display: block; }
+
+.hero {
+  position: relative; }
+  .hero .hero-status {
+    display: inline-block; }
+    .hero .hero-status h1 {
+      letter-spacing: -1px;
+      color: #2c2c2c;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      overflow: hidden;
+      max-width: 150px; }
+    .hero .hero-status p {
+      margin: 0;
+      padding: 0; }
+    .hero .hero-status img {
+      background: red;
+      width: 90px;
+      height: 90px;
+      float: left;
+      margin-right: 10px;
+      visibility: hidden; }
+  .hero .hero-actions {
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .hero .hero-actions button {
+      width: 50%;
+      height: 30px;
+      float: left; }
+    .hero .hero-actions button:last-child {
+      width: 100%; }
+
+textarea {
+  width: 100%;
+  height: 170px;
+  max-height: 170px;
+  outline: none;
+  resize: vertical;
+  background: transparent; }
+
+#restart {
+  width: 200px;
+  height: 80px;
+  border: 1px #C00;
+  font-size: 30px;
+  margin: 0 auto;
+  display: block; }
+
+footer {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0; }
+  footer a {
+    color: #666;
+    text-decoration: none; }
+  footer a:hover {
+    color: black; }
+
+.hide {
+  display: none;
+  visibility: hidden; }
